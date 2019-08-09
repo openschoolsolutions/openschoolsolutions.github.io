@@ -19,7 +19,7 @@ sass:
   sass_dir: _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "https://beingeorge.com"
+url: "https://openschoolsolutions.github.io"
 
 # The shortname for your Disqus site to enable comments.
 disqus:
