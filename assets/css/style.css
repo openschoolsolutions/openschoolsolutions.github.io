@@ -239,7 +239,7 @@ h6 {
 .form-control {
 	background: #fff none repeat scroll 0 0;
 	border: 1px solid #ddd;
-	font-size: 12px;
+	font-size: 14px;
 	padding: 0 15px;
 }
 .form-control:focus {
@@ -581,7 +581,6 @@ textarea.form-control {
 	max-width: 850px;
 	left: 0;
 	right: 0;
-	background: url(../images/pattern1.png);
 	background-size: 217px;
 	background-position: left center;
 	background-repeat: no-repeat;
@@ -591,7 +590,7 @@ textarea.form-control {
 
 .hello,
 .who-creates {
-	font-size: 16px;
+	font-size: 25px;
 	text-transform: none;
 	margin: 15px 0;
 	font-weight: 200;
