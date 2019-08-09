@@ -53,7 +53,7 @@ $('body').scrollspy({
 * Background image.
 /* ---------------------------------------------- */
 
-$(".js-height-full").height($(window).height());
+$(".js-height-full").height($(window).height() - 50);
 
 $(window).resize(function(){
 	$(".js-height-full").height($(window).height());
