@@ -48,12 +48,9 @@ $('body').scrollspy({
 	target: '.navbar-custom',
 	offset: 70
 })
-$('body').data().scrollspy.options.offset = 70;
-$('body').data().scrollspy.process();
 
 var offset = 80;
-
-$('.navbar li a').click(function(event) {
+$('.navbar-custom li a').click(function(event) {
     event.preventDefault();
     $($(this).attr('href'))[0].scrollIntoView();
     scrollBy(0, -offset);
