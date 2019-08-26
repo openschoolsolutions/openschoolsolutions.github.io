@@ -10,3 +10,7 @@
 	color: white !important;
 	background: #5fd3bc;
 }
+
+#home.module-image {
+	margin-top: -50px;
+}
