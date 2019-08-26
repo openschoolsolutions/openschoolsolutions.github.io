@@ -49,15 +49,24 @@ $('body').scrollspy({
 	offset: 70
 })
 $('body').data().scrollspy.options.offset = 70;
+$('body').data().scrollspy.process();
+
+var offset = 80;
+
+$('.navbar li a').click(function(event) {
+    event.preventDefault();
+    $($(this).attr('href'))[0].scrollIntoView();
+    scrollBy(0, -offset);
+});
 
 /* ---------------------------------------------- /*
 * Background image.
 /* ---------------------------------------------- */
 
-$(".js-height-full").height($(window).height() - 70);
+$(".js-height-full").height($(window).height() - 50);
 
 $(window).resize(function(){
-	$(".js-height-full").height($(window).height() - 70);
+	$(".js-height-full").height($(window).height() - 50);
 });
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
