@@ -6,7 +6,7 @@
 	padding: 20px;
 }
 
-.menu--important {
+.menu--important a {
 	color: white;
 	background: #5fd3bc;
 }
