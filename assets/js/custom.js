@@ -134,4 +134,7 @@ $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
 
+var carousel = $("#custom-collapse");
+carousel.trigger('owl.goTo', 1) 
+
 })(jQuery);
