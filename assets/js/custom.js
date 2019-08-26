@@ -49,10 +49,10 @@ $('body').scrollspy({
 * Background image.
 /* ---------------------------------------------- */
 
-$(".js-height-full").height($(window).height());
+$(".js-height-full").height($(window).height() + 5);
 
 $(window).resize(function(){
-	$(".js-height-full").height($(window).height());
+	$(".js-height-full").height($(window).height() + 5);
 });
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
