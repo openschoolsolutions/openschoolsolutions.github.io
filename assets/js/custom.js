@@ -134,14 +134,4 @@ $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
 
-/* ---------------------------------------------- /*
-* Set home as active menu item
-/* ---------------------------------------------- */
-
-$(document).ready(function() {
-	var carousel = $("#custom-collapse");
-	carousel.owlCarousel({singleItem:true, offset:70});
-	carousel.trigger('owl.goTo', 0) 
-});
-
 })(jQuery);
