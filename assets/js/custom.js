@@ -140,7 +140,7 @@ $('.navbar-collapse a').click(function(){
 
 $(document).ready(function() {
 	var carousel = $("#custom-collapse");
-	carousel.owlCarousel({singleItem:true});
+	carousel.owlCarousel({singleItem:true, offset:70});
 	carousel.trigger('owl.goTo', 0) 
 });
 
