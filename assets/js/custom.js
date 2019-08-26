@@ -44,10 +44,10 @@ $('.header').sticky({
 	topSpacing: 0
 });
 
-$('body').scrollspy({
+/*$('body').scrollspy({
 	target: '.navbar-custom',
 	offset: 70
-})
+})*/
 
 /* ---------------------------------------------- /*
 * Background image.
@@ -140,7 +140,7 @@ $('.navbar-collapse a').click(function(){
 
 $(document).ready(function() {
 	var carousel = $("#custom-collapse");
-	carousel.trigger('owl.goTo', 1) 
+	carousel.trigger('owl.goTo', 0) 
 });
 
 })(jQuery);
