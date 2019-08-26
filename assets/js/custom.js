@@ -48,15 +48,16 @@ $('body').scrollspy({
 	target: '.navbar-custom',
 	offset: 70
 })
+$('body').data().scrollspy.options.offset = 70;
 
 /* ---------------------------------------------- /*
 * Background image.
 /* ---------------------------------------------- */
 
-$(".js-height-full").height($(window).height());
+$(".js-height-full").height($(window).height() - 70);
 
 $(window).resize(function(){
-	$(".js-height-full").height($(window).height());
+	$(".js-height-full").height($(window).height() - 70);
 });
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
