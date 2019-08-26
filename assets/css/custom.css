@@ -7,6 +7,6 @@
 }
 
 .menu--important a {
-	color: white;
+	color: white !important;
 	background: #5fd3bc;
 }
