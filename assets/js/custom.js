@@ -42,7 +42,6 @@ $(window).scroll(function() {
 
 $('body').scrollspy({
 	target: '.navbar-custom',
-	offset: 70
 })
 
 /* ---------------------------------------------- /*
