@@ -11,7 +11,7 @@
    viewBox="0 0 744.66 594.92"
    version="1.1"
    id="svg172"
-   sodipodi:docname="example-scene-2.svg"
+   sodipodi:docname="details-1-office-worker.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata176">
@@ -33,16 +33,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="952"
-     inkscape:window-height="1018"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
      id="namedview174"
      showgrid="false"
-     inkscape:zoom="0.37735344"
-     inkscape:cx="231.79166"
-     inkscape:cy="104.55375"
-     inkscape:window-x="960"
+     inkscape:zoom="0.75470687"
+     inkscape:cx="-52.924145"
+     inkscape:cy="249.85939"
+     inkscape:window-x="0"
      inkscape:window-y="30"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg172" />
   <defs
      id="defs4">
@@ -111,7 +111,7 @@
      class="cls-2"
      d="M 487.65002,222.31 C 379.13981,156.72874 327.91648,-44.753819 160.38251,75.647362 -7.1514756,196.04855 62.318964,443.4147 222.86438,503.24084 383.40974,563.06699 589.96145,529.26945 648.08844,418.13183 747.4106,228.22874 560.45901,266.3025 487.65002,222.31 Z"
      id="path38"
-     style="fill:url(#linearGradient970);stroke-width:3.14659166;fill-opacity:1.0"
+     style="fill:url(#linearGradient970);stroke-width:3.14659166;fill-opacity:1;stroke:none"
      inkscape:connector-curvature="0" />
   <ellipse
      cx="332.04001"
