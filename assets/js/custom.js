@@ -45,7 +45,7 @@ $('.header').sticky({
 
 $('body').scrollspy({
 	target: '.navbar-custom',
-	offset: 49
+	offset: 48
 })
 
 /* ---------------------------------------------- /*
