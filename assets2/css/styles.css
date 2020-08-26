@@ -798,6 +798,9 @@ input[type='checkbox'] {
 	background-color: #f7fcfd;
 }
 
+.slider-1 .swiper-slide img {
+	width: 100%;
+}
 
 /************************/
 /*     06. Services     */
