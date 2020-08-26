@@ -799,7 +799,8 @@ input[type='checkbox'] {
 }
 
 .slider-1 .swiper-slide img {
-	max-width: 100%;
+	max-height: 50px;
+    max-width: 90%;
 }
 
 /************************/
