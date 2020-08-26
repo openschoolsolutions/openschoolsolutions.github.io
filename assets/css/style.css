@@ -38,10 +38,10 @@
 /* ---------------------------------------------- */
 
 
-@import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Inter:200,300,400,500,600,700,800,900);
 
 body {
-	font: 400 14px/1.8 'Poppins', sans-serif;
+	font: 400 14px/1.8 'Inter', sans-serif;
 	color: #5b5963;
 	overflow-x: hidden;
 }
@@ -94,7 +94,7 @@ a,
 /*** Typography ***/
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 40px/1.2 'Poppins', sans-serif;
+	font: 700 40px/1.2 'Inter', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
@@ -797,7 +797,7 @@ textarea.form-control {
 #filter li {
 	background: #f5f5f5;
 	display: inline-block;
-	font: 400 13px/1.2 'Poppins', sans-serif;
+	font: 400 13px/1.2 'Inter', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -1205,7 +1205,7 @@ figure {
 
 .blog-viewMore {
     display: block;
-    font: 400 13px/1.2 'Poppins', sans-serif;
+    font: 400 13px/1.2 'Inter', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
