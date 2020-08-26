@@ -799,7 +799,7 @@ input[type='checkbox'] {
 }
 
 .slider-1 .swiper-slide img {
-	width: 100%;
+	max-width: 100%;
 }
 
 /************************/
