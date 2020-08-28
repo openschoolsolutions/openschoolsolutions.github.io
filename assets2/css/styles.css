@@ -1469,7 +1469,7 @@ input[type='checkbox'] {
 	background-color: #222222;
 }
 
-footer > * {
+footer p {
 	color: #c4d8dc;
 }
 
@@ -1479,6 +1479,7 @@ footer > * {
 
 .footer h4 {
 	margin-bottom: 1rem;
+	color: #c4d8dc;
 }
 
 .footer .list-unstyled .fas {
