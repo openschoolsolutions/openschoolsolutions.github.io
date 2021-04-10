@@ -52,7 +52,7 @@ html {
 
 body, p {
 	color: #626262; 
-	font: 400 0.875rem/1.375rem "Ubuntu", sans-serif;
+	font-family: "Ubuntu";
 }
 
 .p-large {
@@ -77,17 +77,17 @@ body, p {
 
 h1 {
 	color: #393939;
-	font: 700 3rem/3.5rem "Ubuntu", sans-serif;
+	font: 700 4rem/4rem "Ubuntu", sans-serif;
 }
 
 h2 {
 	color: #393939;
-	font: 700 2.25rem/2.75rem "Ubuntu", sans-serif;
+	font: 700 3rem/3rem "Ubuntu", sans-serif;
 }
 
 h3 {
 	color: #393939;
-	font: 700 1.75rem/2rem "Ubuntu", sans-serif;
+	font: 700 2rem/2rem "Ubuntu", sans-serif;
 }
 
 h4 {
