@@ -77,12 +77,12 @@ body, p {
 
 h1 {
 	color: #393939;
-	font: 700 4rem/4rem "Ubuntu", sans-serif;
+	font: 700 3.5rem/3.5rem "Ubuntu", sans-serif;
 }
 
 h2 {
 	color: #393939;
-	font: 700 3rem/3rem "Ubuntu", sans-serif;
+	font: 700 2.8rem/2.8rem "Ubuntu", sans-serif;
 }
 
 h3 {
@@ -769,8 +769,8 @@ input[type='checkbox'] {
 
 .header h1 {
 	margin-bottom: 1.125rem;
-	font-size: 2.5rem;
-	line-height: 3.125rem;
+	/*font-size: 2.5rem;
+	line-height: 3.125rem;*/
 }
 
 .header .p-large {
@@ -1649,8 +1649,8 @@ a:hover.back-to-top {
 	}
 
 	.header h1 {
-		font-size: 3rem;
-		line-height: 3.5rem;
+		/*font-size: 3rem;
+		line-height: 3.5rem;*/
 	}
 	/* end of header */
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Week With the Apple Watch"
+title:  "Our first private beta update"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
 date:   2019-01-20
 banner_preview: blog2.jpg
