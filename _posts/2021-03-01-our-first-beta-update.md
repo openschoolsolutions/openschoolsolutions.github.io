@@ -3,7 +3,7 @@ layout: post
 title:  "Our first private beta update"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
 date:   2021-03-01
-banner_preview: blog2.jpg
+banner_preview: 20210103_beta_update.png
 banner_image: blog-banner.jpg
 category: Update
 tags: [minimal, tech, industrial design, fashion]
