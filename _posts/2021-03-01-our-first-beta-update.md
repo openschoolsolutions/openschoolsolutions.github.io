@@ -15,13 +15,13 @@ But not only that, we expanded the quality assurance of the system so we ensure 
 
 We did some big changes in the logic to duplicate competencies, now you'll get better performance and a refined UX to make your workflow smoother. We understand how important it is to port learning content between Subjects. Our custom implementation will allow us to make even more improvements in later updates, so stay tuned!
 
-### Assessments with multiple questions, better UX
+### Multiple Questions for Assessments
 
 Maybe you want to assess your students by asking multiple questions related to one Competency, now we made it much easier to have multiple questions in each Assessment, so students get redirected to learning content they need whenever they need it.
 
 All assessments have now multiple questions to give more creative freedom to the teachers. Questions are displayed one at a time and it's easier to know what questions we're already answered.
 
-### Export with yml files, more performance
+### More performance for exporting Learning Material
 
 As our backend changed for our duplicate feature we also improved exporting competencies. Now the files are more readable and sorted per Content-Type. You can manually edit the files and get the content you need in multiple instances.
 
@@ -37,7 +37,7 @@ There have been multiple improvements in the user interface for user management.
 
 But not only that, we added the username field to keep more user information private. Users no longer need to use their names and instead they can only select a unique username that will be displayed across the platform.
 
-### Better UX for students to know their progress
+### Students know their progress better
 
 We understand how important it is for each student to track their own progress so we worked on displaying the information about it and making it available every time that a Topic is updated.
 
@@ -49,7 +49,7 @@ We want to make things easier for the teachers of our platform so now it takes o
 
 With the information on the screen, it will be much easier to identify the Topics that need work or that were hidden by this feature.
 
-### CKEditor paste images
+### Pasting images in CKEditor
 
 We love CKEditor and we understand the features that it offers. Now we support natively pasting images to the editor from the clipboard and they are automatically uploaded to the server.
 
