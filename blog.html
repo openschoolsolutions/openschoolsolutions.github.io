@@ -2,67 +2,42 @@
 layout: default
 ---
 
-<!-- Blog start -->
-
 {% include nav.html %}
 
-<section id="blog-page" class="module">
+<!-- Blog Detail Start -->
+
+<!-- Header -->
+<header id="header" class="ex-header">
 	<div class="container">
 		<div class="row">
+			<div class="col-md-12">
+				<h1>Blog</h1>
+				<p>Read our latest news</p>
+			</div> <!-- end of col -->
+		</div> <!-- end of row -->
+	</div> <!-- end of container -->
+</header> <!-- end of ex-header -->
+<!-- end of header -->
 
-			<div class="module-header">
-				<h2 class="module-title">
-					Blog
-					<span>Blog</span>
-				</h2>
-				<div class="module-line"></div>
-			</div>
-
-		</div><!-- .row -->
-
-		<!-- Blog Filter start-->
-
+<div id="blog" class="ex-basic-2">
+	<div class="container">
 		<div class="row">
-
-			<div class="col-sm-12">
-
-				<ul id="filter">
-					<li class="active" data-group="all">All</li>
-					{% assign categories = site.posts | map: 'category' | uniq %}
-						{% for category in categories %}
-						<li data-group="{{ category }}">{{ category }}</li>
-					{% endfor %}
-				</ul>
+			{% for post in site.posts %}
+			<div class="col-lg-4 col-md-6">
+				<div class="card mb-3">
+					<img class="card-img" src="/assets/images/{{ post.banner_preview }}" alt="Post image">
+					<div class="card-body">
+						<h3 class="card-title">{{ post.title }}</h4>
+						<p class="text-muted small">
+							{{ post.date | date: "%B %-d, %Y" }}
+						</p>
+						<p class="card-text">{{ post.description }}</p>
+						<a href="{{ site.baseurl }}{{ post.url }}" class="btn-solid-reg">Read More</a>
+					</div>
+				</div>
 
 			</div>
-
-		</div><!-- .row -->
-
-		<!-- Blog Filter end -->
-
-		<ul class="list-items-container blog-wrapper">
-
-			{% for post in site.posts %}
-
-			<li class="list-item" data-groups="all {{ post.category }}">
-				<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
-					<div class="blogList-img">
-						<img src="{{ "/assets/images/" | append: post.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
-						<span>{{ post.category }}</span>
-					</div>
-					<div class="blogList-desc">
-						<h3>{{ post.title }}</h3>
-						<div>{{ post.description }}</div>
-					</div>
-				</a>
-			</li>
-
 			{% endfor %}
-
-
-		</ul><!-- .projects-container -->
-	</div><!-- .contaier -->
-
-</section>
-
-<!-- Blog start -->
+		</div>
+	</div> <!-- end of container -->
+</div> <!-- end of form-2 -->

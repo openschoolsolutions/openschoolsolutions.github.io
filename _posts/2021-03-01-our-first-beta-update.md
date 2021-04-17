@@ -41,7 +41,8 @@ But not only that, we added the username field to keep more user information pri
 
 We understand how important it is for each student to track their own progress so we worked on displaying the information about it and making it available every time that a Topic is updated.
 
-Now all students will track their progress much easier as that information is displayed on every Topic information page across the platform. Every time that an Assessment or Learning Path is updated by a student, the changes are reflected in the UI to know what is the status of each item. 
+Now all students will track their progress much easier as that information is displayed on every Topic information page across the platform. Every time that an Assessment or Learning Path is updated by a student, the changes are reflected in the UI to know what is the status of each item.
+
 ### Save and publish
 
 We want to make things easier for the teachers of our platform so now it takes one button to publish a Competency and all its contents. It will detect the Topics that are incomplete and make them not visible for students.
@@ -50,9 +51,9 @@ With the information on the screen, it will be much easier to identify the Topic
 
 ### CKEditor paste images
 
-We love CKEditor and we understand all the options that it offers. Now we support natively pasting images to the editor from the clipboard and they are automatically uploaded to the server.
+We love CKEditor and we understand the features that it offers. Now we support natively pasting images to the editor from the clipboard and they are automatically uploaded to the server.
 
 ## We are also celebrating
 
-As OPENschool is one of the selected teams for the 2020 Bildunger Challenge. Thanks to that, the project was funded 100K EUR as a supporting budget to implement and expand the concept. The team cannot be happier and more thankful for this.
+OPENschool is one of the selected teams for the 2020 Bildunger Challenge. Thanks to that, the project was funded 100K EUR as a supporting budget to implement and expand the concept. The team cannot be happier and more thankful for this.
 We hope to give you more exciting news soon.
